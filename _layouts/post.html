@@ -28,5 +28,7 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a href="https://github.com/tetetratra/blog/blob/main/_posts/{{ page.date | date: '%Y-%m-%d' }}-{{ page.url | replace: '/', '' }}.md" target="_blank">
+    <i style="float: right; color: #888;" class="far fa-xs fa-edit icon-lightgray"></i>
+  </a>
 </article>
