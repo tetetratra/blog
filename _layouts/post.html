@@ -11,12 +11,6 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%Y/%m/%d" }}
       </time>
-      &nbsp;
-      <i class="fas fa-xs fa-tags icon-lightgray"></i>
-      &nbsp;
-      {% for tag in page.tags %}
-        {{tag}}&nbsp;
-      {% endfor %}
     </p>
   </header>
 
