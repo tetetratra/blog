@@ -8,7 +8,6 @@
 ---
 layout: post
 title: "タイトル"
-date: 2021-01-01
 tags: タグ
 ---
 
