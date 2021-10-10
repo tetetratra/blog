@@ -8,7 +8,6 @@
 ---
 layout: post
 title: "タイトル"
-tags: タグ
 ---
 
 ```
